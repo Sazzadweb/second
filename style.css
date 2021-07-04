@@ -8,6 +8,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .d1{
     width: 50%;
@@ -23,10 +24,17 @@ section{
    background-color:orangered;
    border-radius: 3px;
    color: black;
+   padding-top: 2px;
+   text-align: center;
    
 }
 .bi{
    background-image: url(img/top-banner.png);
    background-repeat: no-repeat;
    
+}
+.db{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
